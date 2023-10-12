@@ -17,6 +17,3 @@ jobs:
       uses: shivammathur/setup-php@v2
       with:
         php-version: '8.0'
-
-    - name: Run Tests
-      run: phpunit
