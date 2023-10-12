@@ -1,0 +1,7 @@
+{
+    "name": "your-project-name",
+    "require": {
+        "php": "^8.0", // Define the PHP version you're using
+        // Add other dependencies if needed
+    }
+}
