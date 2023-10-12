@@ -18,8 +18,5 @@ jobs:
       with:
         php-version: '8.0'
 
-    - name: Install Dependencies
-      run: composer install
-
     - name: Run Tests
       run: phpunit
