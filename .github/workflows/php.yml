@@ -16,15 +16,10 @@ jobs:
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4'
+        php-version: '8.0'
 
     - name: Install Dependencies
       run: composer install
 
     - name: Run Tests
       run: phpunit
-
-    - name: Deploy to Server
-      if: success()
-      run: |
-        ssh user@your-server-ip "cd /path/to/your/project && git pull origin main"
